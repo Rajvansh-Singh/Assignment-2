@@ -1,0 +1,106 @@
+html {
+    font: normal normal normal 20px/1.5 Roboto, Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #eceff1; 
+    display: flex;
+    flex-direction: column;
+    background-color:antiquewhite;
+}
+
+.structural {
+    padding: 1rem;
+    border: 1px solid #bdbdbd; 
+    margin: 1rem;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+header {
+    background-color: #2196f3; 
+    flex: 1 10%;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #3498db;
+}
+
+nav {
+    background-color: #37474f; 
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    line-height: 1.4;
+    color: #78909c; 
+}
+
+a {
+    color: #90caf9; 
+}
+
+nav a {
+    border: 2px solid #2196f3;
+    color: #2196f3;
+    font-family: Roboto, sans-serif;
+    background-color: #ffffff; 
+    text-decoration: none;
+    padding: 1em;
+    transition: background-color 0.3s ease; 
+}
+
+nav a:hover {
+    background-color: #1565c0; 
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex: 4 8%;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+main {
+    flex: 2 1 70%;
+    background-color: #fafafa; 
+}
+
+main p {
+    line-height: 1.4;
+    color: #78909c; 
+}
+
+main a {
+    color: #90caf9; 
+}
+ 
+@media screen and (min-width: 600px) {
+}
+
+@media screen and (max-width: 1025px) {
+}
+
